@@ -1,0 +1,22 @@
+.lead__train-text {
+  margin: 8px 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__train-text {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__train-text {
+    margin-left: 16px;
+  }
+}

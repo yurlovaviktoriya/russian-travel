@@ -1,0 +1,21 @@
+.page__block-left {
+  margin-left: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+  .page__block-left {
+    margin-left: 148px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__block-left {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__block-left {
+    margin-left: 16px;
+  }
+}

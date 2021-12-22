@@ -1,0 +1,11 @@
+.intro__characteristic-list {
+  width: 100%;
+  margin: 33px 0 0;
+  padding-left: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+}

@@ -1,0 +1,7 @@
+.header__lang-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 18px;
+  min-height: 28px;
+  align-items: center;
+}

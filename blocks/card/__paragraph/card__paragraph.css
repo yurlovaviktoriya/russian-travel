@@ -1,4 +1,4 @@
-.places__paragraph {
+.card__paragraph {
   margin: 0 0 27px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
@@ -7,12 +7,13 @@
   line-height: 163%;
 }
 
-.places__paragraph:last-child {
+.card__paragraph:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 425px) {
-  .places__paragraph  {
+@media screen and (max-width: 1023px) {
+  .card__paragraph  {
     margin-bottom: 25px;
+    font-size: 16px;
   }
 }

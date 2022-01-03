@@ -11,3 +11,5 @@
 
 **Примечание**
 Этот проект - курсовая работа студента Яндекс.Практикума.
+
+[Посмотреть](https://yurlovaviktoriya.github.io/russian-travel/) на GitHub Pages.

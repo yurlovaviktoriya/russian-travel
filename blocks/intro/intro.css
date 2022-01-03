@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
-    width: calc(100% - 738px);
+    width: calc(100% - 590px);
     margin-left: 148px;
   }
 }

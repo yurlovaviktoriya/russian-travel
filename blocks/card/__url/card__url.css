@@ -1,11 +1,12 @@
-.places__url-card {
+.card__url {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 767px) {
-  .places__url-card  {
+  .card__url  {
     width: calc(100% - 32px);
     margin: auto;
   }

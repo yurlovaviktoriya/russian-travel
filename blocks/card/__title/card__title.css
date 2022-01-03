@@ -1,6 +1,6 @@
-.places__title {
+.card__title {
   margin: 0;
-  width: 100%;
+  max-width: 440px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -8,17 +8,24 @@
   line-height: 76px;
 }
 
+@media screen and (min-width: 1280px) {
+  .card__title  {
+    max-width: 460px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
-  .places__title  {
+  .card__title  {
+    max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__title  {
+  .card__title  {
     width: calc(100% - 32px);
-    margin: auto;
+    margin-left: 16px;
     font-size: 32px;
     line-height: 35px;
   }

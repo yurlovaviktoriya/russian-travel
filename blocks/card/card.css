@@ -1,14 +1,13 @@
-.places__item {
+.card {
   width: 100%;
   display: grid;
   grid-template-columns: 440px calc(100% - 488px);
   grid-template-rows: minmax(min-content max-content) minmax(440px max-content);
   gap: 48px 32px;
-
 }
 
 @media screen and (min-width: 1280px) {
-  .places__item {
+  .card {
     grid-template-columns: 460px calc(100% - 500px);
     grid-template-rows: minmax(min-content max-content) minmax(460px max-content);
     gap: 48px 40px;
@@ -16,7 +15,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .places__item {
+  .card {
     grid-template-columns: 340px calc(100% - 368px);
     grid-template-rows: minmax(min-content max-content) minmax(340px max-content);
     gap: 48px 28px;
@@ -24,9 +23,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  .places__item {
+  .card {
     grid-template-columns: 100%;
     grid-template-rows: minmax(min-content max-content);
-    gap: 35px;
+    gap: 32px;
   }
 }
